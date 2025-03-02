@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=stylesheet href=css/main.css>
+    <link rel="stylesheet" href="https://mattiaortolani.github.io/TiaLib/css/compressed.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="card">
+
+
+        <div class="card__box">
+            <p>Lettere maiuscole</p>
+            <input type="checkbox" name="" id="maiuscole" class="toggle-button">
+            <label for="maiuscole" class="button">
+                <div class="button__circle"></div>
+            </label>
+        </div>
+
+        <div class="card__box">
+            <p>Numeri</p>
+            <input type="checkbox" name="" id="numeri" class="toggle-button">
+            <label for="numeri" class="button">
+                <div class="button__circle"></div>
+            </label>
+        </div>
+
+        <div class="card__box">
+            <p>Caratteri speciali</p>
+            <input type="checkbox" name="" id="speciali" class="toggle-button">
+            <label for="speciali" class="button">
+                <div class="button__circle"></div>
+            </label>
+        </div>
+
+        <div class="card__box">
+            <p>Lunghezza</p>
+            <input type="number" class="input-number" min="6" max="60" placeholder="Da 6 a 60">
+        </div>
+
+        <p class="password-label">Password...</p>
+
+        <div class="card__button">
+            <button class="card__button--generate">genera</button>
+            <button class="card__button--copy">copia</button>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
