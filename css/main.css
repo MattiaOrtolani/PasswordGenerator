@@ -49,7 +49,7 @@ body {
   height: 2.5rem;
   width: 10rem;
   padding-left: 0.3rem;
-  font-size: 1.6rem;
+  font-size: 1.5;
   border: solid 2px rgb(82, 82, 82);
   background-color: transparent;
   color: whitesmoke;
@@ -70,6 +70,7 @@ body {
   text-transform: uppercase;
   border-radius: 50px;
   color: whitesmoke;
+  font-size: 1.6rem;
   background-color: rgb(75, 75, 75);
   cursor: pointer;
 }
@@ -91,9 +92,4 @@ body {
 }
 .card .button {
   margin-left: auto;
-}
-@media (max-width: 670px) {
-  .card .button {
-    transform: scale(0.65);
-  }
 }/*# sourceMappingURL=main.css.map */

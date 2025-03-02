@@ -92,10 +92,5 @@
     .button
     {
         margin-left: auto;
-
-        @media (max-width: 670px)
-        {
-            transform: scale(.65);
-        }
     }
 }
