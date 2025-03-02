@@ -48,11 +48,11 @@ body {
   margin-left: auto;
   height: 2.5rem;
   width: 10rem;
-  padding-left: 0.3rem;
-  font-size: 1.5;
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+  color: whitesmoke;
   border: solid 2px rgb(82, 82, 82);
   background-color: transparent;
-  color: whitesmoke;
 }
 .card__box .input-number::placeholder {
   transform: translateX(0.5rem);
