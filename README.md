@@ -1,7 +1,7 @@
 # PASSWORD GENERATOR
 
 <div align="center">
-    <img src="assets/images/screen.png" style="width: 90%">
+    <img src="assets/images/screen.png" style="width: 40%">
 </div>
 
 <br>
